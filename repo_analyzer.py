@@ -1,3 +1,5 @@
+import requests
+
 def get_model_summary(url):
     try:
         response = requests.get(f"{url}/api/v1/models", timeout=30)
